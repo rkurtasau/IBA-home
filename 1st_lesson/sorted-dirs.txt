@@ -1,0 +1,11 @@
+top 7 dirs on server sorted by size(Mb)
+
+5939	/
+2464	/usr
+842	/var
+182	/boot
+101	/home
+7	/etc
+2	/run
+
+sudo du -m --max-depth=1 / | sort -n -r | head -n 7 > /home/roman/it-training/linux/sorted-dirs.txt

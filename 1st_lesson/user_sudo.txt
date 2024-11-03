@@ -1,0 +1,2 @@
+user1_sudo:x:1001:27::/home/user1_sudo:/bin/sh
+/etc/passwd | grep -w user1_sudo > user_sudo.txt
