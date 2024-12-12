@@ -1,0 +1,10 @@
+#FROM 
+
+#EXPOSE 
+
+#WORKDIR 
+
+#CMD 
+
+#ENTRYPOINT
+
