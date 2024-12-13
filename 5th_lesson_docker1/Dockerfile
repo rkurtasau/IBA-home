@@ -1,10 +1,7 @@
-#FROM 
+FROM nginx:alpine
 
-#EXPOSE 
+WORKDIR /
 
-#WORKDIR 
+COPY ./index.html /usr/share/nginx/html/index.html
 
-#CMD 
-
-#ENTRYPOINT
 
