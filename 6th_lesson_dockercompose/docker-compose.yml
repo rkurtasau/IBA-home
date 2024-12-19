@@ -1,2 +1,16 @@
 services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8081-8083:80"
+    deploy:
+      mode: replicated
+      replicas: 3
+    volumes:
+      - type: volume
+        source: myvolume
+        target: /usr/share/nginx/html
 
+volumes:
+  myvolume:
+    external: true
