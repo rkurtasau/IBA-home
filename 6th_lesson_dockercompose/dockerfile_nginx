@@ -1,2 +1,5 @@
 FROM nginx:alpine
 
+WORKDIR /
+
+EXPOSE 80
